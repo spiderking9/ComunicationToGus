@@ -44,12 +44,7 @@ namespace _3333333333333
                 {
                     result = (List<dane>)serializer.Deserialize(reader);
                 }
-                List<dane> colection = new List<dane>();
-                foreach (dane item in result)
-                {
-                    colection.Add(item);
-                }
-                dataGrid.ItemsSource = colection;
+                dataGrid.ItemsSource = result;
             }
             else if (searchInput.Text.Length <10)
             {
