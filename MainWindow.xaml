@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="100" x:Name="searchInput" Text="8992689516,5261040828"/>
+        <TextBox HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="160" x:Name="searchInput" Text="8992689516,5261040828"/>
         <Button Content="Search" HorizontalAlignment="Left" Margin="250,50,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
         <DataGrid Name="dataGrid" Height="250" HorizontalAlignment="Left" Margin="50,100,0,0" VerticalAlignment="Top" Width="650" Background="White"/>
     </Grid>

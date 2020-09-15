@@ -33,7 +33,7 @@ namespace _3333333333333
 
             //8992689516,5261040828
             XmlSerializer serializer = new XmlSerializer(typeof(List<dane>), new XmlRootAttribute("root"));
-            List<dane> result;
+
 
 
             if (searchInput.Text !=null && searchInput.Text.Length >= 10)
@@ -42,9 +42,8 @@ namespace _3333333333333
 
                 using (TextReader reader = new StringReader(xml))
                 {
-                    result = (List<dane>)serializer.Deserialize(reader);
+                    dataGrid.ItemsSource = (List<dane>)serializer.Deserialize(reader);
                 }
-                dataGrid.ItemsSource = result;
             }
             else if (searchInput.Text.Length <10)
             {
