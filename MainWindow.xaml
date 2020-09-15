@@ -1,0 +1,14 @@
+﻿<Window x:Class="_3333333333333.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3333333333333"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="50,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="30" Width="100" x:Name="searchInput" Text="8992689516,5261040828"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="250,50,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click"/>
+        <DataGrid Name="dataGrid" Height="250" HorizontalAlignment="Left" Margin="50,100,0,0" VerticalAlignment="Top" Width="650" Background="White"/>
+    </Grid>
+</Window>
